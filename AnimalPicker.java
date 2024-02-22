@@ -6,7 +6,7 @@ public class AnimalPicker{
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Welcome!");
-        System.out.println("Would you like to see: 1. a dog 2. a cat.");
+        System.out.println("Would you like to see: 1. a dog 2. a cat. 3. a fish");
         System.out.println("Please select the number of the animal you would like to see.");
         int selection = -1;
 
@@ -26,6 +26,14 @@ do{
             System.out.println("|\\---/|\r\n" + //
                                 "| o_o |\r\n" + //
                                 " \\_^_/");
+        }
+        else if(userInput == 3){
+            selection = userInput - 1;
+            System.out.println("      .            \r\n" + //
+                                "\\_____)\\_____\r\n" + //
+                                "/--v____ __`<         \r\n" + //
+                                "        )/           \r\n" + //
+                                "        '");
         }
         else {
             System.out.println("Error: That number does not correspond with an animal, please try again.");
