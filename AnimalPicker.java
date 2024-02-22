@@ -16,11 +16,16 @@ do{
 
         if(userInput == 1){
             selection = userInput - 1;
-            System.out.println("DOG ASCII ART HERE");
+            System.out.println("            __\r\n" + //
+                                "(\\,--------'()'--o\r\n" + //
+                                " (_    ___    /~\"\r\n" + //
+                                "  (_)_)  (_)_)");
         }
         else if(userInput == 2){
             selection = userInput - 1;
-            System.out.println("CAT ASCII ART HERE");
+            System.out.println("|\\---/|\r\n" + //
+                                "| o_o |\r\n" + //
+                                " \\_^_/");
         }
         else {
             System.out.println("Error: That number does not correspond with an animal, please try again.");
